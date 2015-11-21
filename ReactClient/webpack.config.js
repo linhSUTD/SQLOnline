@@ -1,9 +1,9 @@
 var webpack = require("webpack");
 var path = require("path");
 module.exports = {
-	entry: './Client/index.tsx',
+	entry: './index.tsx',
 	output: {
-		path: __dirname + '../Server/wwwroot/js/',
+		path: __dirname + '/../Server/wwwroot/js/',
 		filename: 'bundle.js'
 	},
 	// Turn on sourcemaps
@@ -14,9 +14,6 @@ module.exports = {
 	module: {
 		loaders: [{ 
 			test: /\.ts(x?)$/,
-			include: [
-				path.resolve(__dirname, "Client")
-			],
 			loader: 'ts-loader' 
 		}]
 	}

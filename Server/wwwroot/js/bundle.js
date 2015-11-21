@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	///<reference path="../typings/react/react-global.d.ts"/>
+	///<reference path="typings/react/react-global.d.ts"/>
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(158);
 	var voting_1 = __webpack_require__(159);
@@ -19648,7 +19648,7 @@
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	///<reference path="../../typings/react/react-global.d.ts"/>
+	///<reference path="../typings/react/react-global.d.ts"/>
 	var React = __webpack_require__(1);
 	var Voting = (function (_super) {
 	    __extends(Voting, _super);
