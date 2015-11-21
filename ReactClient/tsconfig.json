@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"jsx": "react",
+		"experimentalDecorators": true
+	},
+	"files": [
+		"Client/components/voting.tsx"
+	]
+}

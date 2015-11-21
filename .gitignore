@@ -170,7 +170,7 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
-node_modules/
+*/node_modules/
 bower_components/
 orleans.codegen.cs
 
@@ -205,3 +205,4 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+wwwroot/lib
