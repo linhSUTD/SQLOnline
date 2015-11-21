@@ -6,6 +6,7 @@
 		"experimentalDecorators": true
 	},
 	"files": [
-		"Client/components/voting.tsx"
+		"index.tsx",
+		"components/voting.tsx"
 	]
 }

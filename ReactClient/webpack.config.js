@@ -3,7 +3,7 @@ var path = require("path");
 module.exports = {
 	entry: './Client/index.tsx',
 	output: {
-		path: __dirname + '/wwwroot/js/',
+		path: __dirname + '../Server/wwwroot/js/',
 		filename: 'bundle.js'
 	},
 	// Turn on sourcemaps

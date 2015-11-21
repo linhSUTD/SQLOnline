@@ -1,4 +1,4 @@
-///<reference path="../typings/react/react-global.d.ts"/>
+///<reference path="typings/react/react-global.d.ts"/>
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
