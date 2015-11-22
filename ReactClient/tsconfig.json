@@ -3,10 +3,13 @@
 		"target": "ES5",
 		"module": "commonjs",
 		"jsx": "react",
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+		"sourceMap": true
 	},
 	"files": [
 		"index.tsx",
-		"components/voting.tsx"
+		"components/voting.tsx",
+		"components/winner.tsx",
+		"components/vote.tsx"
 	]
 }

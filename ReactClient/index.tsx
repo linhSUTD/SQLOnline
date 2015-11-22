@@ -2,12 +2,11 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {Voting} from './components/voting';
+import {Vote, IVoteProps} from './components/vote';
 
-const pair = ['Trainspotting', '28 Days Later'];
 
 ReactDOM.render(
-    <Voting pair={pair} />,
+    <Vote winner="Trainspotting" />,
     document.getElementById('app')
 );
 

@@ -16,6 +16,15 @@
         },
         "react/react-dom.d.ts": {
             "commit": "16134c168d021351acb1673ee9659644fc58c424"
+        },
+        "react/react-addons-pure-render-mixin.d.ts": {
+            "commit": "16134c168d021351acb1673ee9659644fc58c424"
+        },
+        "react/react-global.d.ts": {
+            "commit": "16134c168d021351acb1673ee9659644fc58c424"
+        },
+        "react-router/react-router.d.ts": {
+            "commit": "16134c168d021351acb1673ee9659644fc58c424"
         }
     }
 }
