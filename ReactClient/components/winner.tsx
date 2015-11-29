@@ -12,11 +12,9 @@ export class Winner extends React.Component<IWinnerProps, {}>{
     
     public render(){
         return (
-            
 <div className="winner">
     Winner is {this.props.winner}!
 </div>   
-            
         );
     }
 }

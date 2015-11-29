@@ -6,3 +6,5 @@
 /// <reference path="react/react-dom.d.ts" />
 /// <reference path="react/react-addons-pure-render-mixin.d.ts" />
 /// <reference path="react-router/react-router.d.ts" />
+/// <reference path="redux/redux.d.ts" />
+/// <reference path="react-redux/react-redux.d.ts" />

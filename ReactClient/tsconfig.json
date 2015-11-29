@@ -10,6 +10,7 @@
 		"index.tsx",
 		"components/voting.tsx",
 		"components/winner.tsx",
-		"components/vote.tsx"
+		"components/vote.tsx",
+		"store/voteStore.tsx"
 	]
 }
