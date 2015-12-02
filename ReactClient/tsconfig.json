@@ -8,9 +8,10 @@
 	},
 	"files": [
 		"index.tsx",
-		"components/voting.tsx",
-		"components/winner.tsx",
-		"components/vote.tsx",
-		"store/voteStore.tsx"
+		"components/todoList/todoFrame.tsx",
+		"components/todoList/header.tsx",
+		"components/todoList/item.tsx",
+		"components/st/thing.tsx",
+		"store/todoStore.tsx"
 	]
 }
