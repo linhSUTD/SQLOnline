@@ -12,6 +12,7 @@
 		"components/todoList/header.tsx",
 		"components/todoList/item.tsx",
 		"components/st/thing.tsx",
-		"store/todoStore.tsx"
+		"store/todoStore.ts",
+		"store/baseStore.ts"
 	]
 }

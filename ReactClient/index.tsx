@@ -10,8 +10,8 @@ import {Router, Route} from 'react-router';
 import {Provider} from 'react-redux';
 import {ToDoFrameProvider} from './components/todoList/todoFrame';
 import {Something} from './components/st/thing';
-import {store} from './store/todoStore';
-
+import {todoStore} from './store/todoStore';
+import {Map, List} from 'immutable';
 
 (function Hello(name: string) {
     console.log(`Hello ${name}!`);
@@ -24,8 +24,9 @@ var router = (
 </Router>
 );
 
+
 ReactDOM.render(
-    <Provider store={store}>
+    <Provider store={todoStore}>
         {router}
     </Provider>,
     document.getElementById('app')

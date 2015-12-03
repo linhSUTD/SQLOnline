@@ -60,7 +60,7 @@
 	    console.log("Hello " + name + "!");
 	})("huy");
 	var router = (React.createElement(react_router_1.Router, null, React.createElement(react_router_1.Route, {"path": "/", "component": todoFrame_1.ToDoFrameProvider}), React.createElement(react_router_1.Route, {"path": "/something", "component": thing_1.Something})));
-	ReactDOM.render(React.createElement(react_redux_1.Provider, {"store": todoStore_1.store}, router), document.getElementById('app'));
+	ReactDOM.render(React.createElement(react_redux_1.Provider, {"store": todoStore_1.todoStore}, router), document.getElementById('app'));
 
 
 /***/ },
@@ -25564,14 +25564,14 @@
 	///<reference path="../typings/immutable/immutable.d.ts"/>
 	var immutable_1 = __webpack_require__(230);
 	var Redux = __webpack_require__(215);
-	var _storeState = immutable_1.Map();
-	var storeState = _storeState
+	var _todoStoreState = immutable_1.Map();
+	var todoStoreState = _todoStoreState
 	    .set("Go to work", false)
 	    .set("Send email", false);
-	exports.store = Redux.createStore(function (state, action) {
-	    if (state === void 0) { state = storeState; }
+	exports.todoStore = Redux.createStore(function (state, action) {
+	    if (state === void 0) { state = todoStoreState; }
 	    return state;
-	}, storeState);
+	}, todoStoreState);
 
 
 /***/ },

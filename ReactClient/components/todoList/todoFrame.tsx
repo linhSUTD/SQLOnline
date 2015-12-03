@@ -60,7 +60,6 @@ export class ToDoFrame extends React.Component<ITodoFrameProp, {}>{
 }
 
 export var ToDoFrameProvider = connect(function(state: Map<string, boolean>) {
-
 	var props: ITodoFrameProp = {
 		todoItems: state,
 	};
