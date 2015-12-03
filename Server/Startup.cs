@@ -15,6 +15,7 @@ namespace SQLOnline
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+            System.Console.WriteLine(env.EnvironmentName);
         }
 
         public IConfigurationRoot Configuration { get; set; }
